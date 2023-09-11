@@ -11,3 +11,4 @@ export function home() {
     </section>`;
 }
 
+export const homeLink = document.querySelector('#home');
