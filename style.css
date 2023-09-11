@@ -64,8 +64,9 @@ h1 {
   color: #E1E1E6;
 }
 
-a {
-  text-align: center;
+section a {
+  margin: auto;
+  max-width: 22rem;
 }
 
 button {
@@ -92,8 +93,6 @@ p {
   max-width: 64.8rem;
   font-size: 1.8rem;
   font-weight: 400;
-  /* font-family: Roboto; */
-
   line-height: 2.88rem;
   color: #e1e1e6;
   text-align: justify;
