@@ -6,7 +6,7 @@
 
 :root {
   font-size: 62.5%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -17,7 +17,9 @@ body {
   background-size: cover;
 }
 
-body, button, a {
+body,
+button,
+a {
   color: #fff;
 }
 
@@ -42,4 +44,57 @@ ul li {
 
 li a {
   text-decoration: none;
+}
+
+li a:hover {
+  font-weight: 700;
+}
+
+#app {
+  margin: 17rem auto 0;
+  display: grid;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+h1 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 125%;
+  color: #E1E1E6;
+}
+
+a {
+  text-align: center;
+}
+
+button {
+  margin: auto;
+  padding: 1.2rem 3.2rem;
+  width: 22rem;
+  height: 4.8rem;
+  border: 0.2rem solid #fff;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #FFF;
+  border: 0.2rem solid #02799d;
+  color: #02799d;
+
+}
+
+p {
+  max-width: 64.8rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  /* font-family: Roboto; */
+
+  line-height: 2.88rem;
+  color: #e1e1e6;
+  text-align: justify;
 }
