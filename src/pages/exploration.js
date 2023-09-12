@@ -3,8 +3,9 @@ import { app } from '../js/app.js'
 export function exploration() {
   return app.innerHTML = `
   <section id="app">
-    <h1>O Universo</h1>
-    <p>A palavra Universo deriva do latim universum. A palavra latina foi usada por Cícero e posteriormente por outros autores com o mesmo sentido que é empregada atualmente. A palavra latina é derivada da contração poética unvorsum — utilizada primeiramente por Lucrécio no Livro IV de seu “Sobre a Natureza das coisas” — que conecta un, uni (um) com vorsum, versum (que significa "algo rodado, rolado ou mudado").</p>
+    <h1>Exploração</h1>
+    <p>Os corpos celestes e astros sempre foram motivo de grande fascinação na humanidade. Há registros de gregos, mesopotâmicos e astecas descrevendo vários acontecimentos celestes. Na era contemporânea, vários cientistas deram grandes contribuições para que o sonho de explorar o espaço pudesse se tornar realidade, como o russo Konstantin Tsiolkovsky, o alemão Hermann Oberth e o estadunidense Robert Goddard.
+    </p>
   </section>`
 }
 
