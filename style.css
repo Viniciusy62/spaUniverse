@@ -50,7 +50,7 @@ li a:hover {
   font-weight: 700;
 }
 
-#app {
+#app, .app {
   margin: 10rem auto 0;
   display: grid;
   justify-content: center;
