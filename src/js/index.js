@@ -20,6 +20,11 @@ function handle() {
   })
 }
 
+handle()
+window.onpopstate = () => handle()
+window.route = () => route()
+
+
 home.addEventListener('click', route)
 universe.addEventListener('click', route)
 exploration.addEventListener('click', route)
